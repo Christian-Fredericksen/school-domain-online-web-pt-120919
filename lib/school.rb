@@ -29,7 +29,7 @@ class School
    end
    
    def sort
-       @roster[@grade_level](@student).sort
+       @roster[@grade_level]@student.sort
        end
    
 end
