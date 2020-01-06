@@ -32,7 +32,7 @@ class School
      
        @roster.map do |grade, students|
          #binding.pry
-         students.sort
+         @roster[grade]=students.sort
        
          
        end
