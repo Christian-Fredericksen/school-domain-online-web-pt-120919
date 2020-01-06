@@ -32,6 +32,7 @@ class School
      binding.pry
        @roster.map do |grade, students|
          
+         
        end
    
 end
