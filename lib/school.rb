@@ -30,7 +30,8 @@ class School
    
    def sort
      binding.pry
-       @roster[@grade_level][@student].sort
+       @roster.map do |grade, students|
+         
        end
    
 end
